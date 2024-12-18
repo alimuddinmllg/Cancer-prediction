@@ -1,0 +1,25 @@
+.stColumn st-emotion-cache-aajpza eiemyj2 {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #7E99AB;
+}
+
+div[class*="stColumn st-emotion-cache-aajpza eiemyj2"] {
+    padding: 1rem !important;
+    border-radius: 0.5rem !important;
+    background-color: #7E99AB !important;
+}
+
+.diagnosis {
+    color: white;
+    padding: 0.2em 0.5rem;
+    border-radius: 0.5em;
+}
+
+.diagnosis.benign {
+    background-color: #01DB4B
+}
+
+.diagnosis.malicious {
+    background-color: #ff4b4b
+}
