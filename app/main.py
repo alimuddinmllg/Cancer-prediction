@@ -160,7 +160,7 @@ def add_predictions(input_data):
 
 def main():
         data = get_clean_data()
-        data= data.drop(['diagnosis'],axis=1)
+        # data= data.drop(['diagnosis'],axis=1)
         st.set_page_config(
             page_title='Breast Cancer Prediction',
             page_icon=":female doctor;",
