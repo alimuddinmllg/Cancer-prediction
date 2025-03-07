@@ -1,10 +1,11 @@
 # Breast Cancer Predictor App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cancer-prediction-kzyjudzvgmgbxf6edjrjhg.streamlit.app/)
+![Image Description](https://raw.githubusercontent.com/alimuddinmllg/Cancer-prediction/main/Breast_cancer.png)
+
 
 A machine learning-powered web application that helps predict breast cancer (benign/malignant) based on cell nuclei measurements from cytology labs.
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Breast+Cancer+Prediction+App+Screenshot)
+
 
 ## Features
 
@@ -23,17 +24,19 @@ To run locally, follow these steps:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
+```
 Install dependencies:
 
-bash
+```bash
 Copy
 pip install -r requirements.txt
+```
 Run the Streamlit app:
 
-bash
+```bash
 Copy
 streamlit run app.py
+```
 Usage
 Adjust the sliders in the sidebar to input cell nuclei measurements
 
