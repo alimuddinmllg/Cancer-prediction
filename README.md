@@ -62,41 +62,41 @@ Uses the [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/dataset/1
 
   * Features normalized for model input
 
-Technologies Used
-Python 3.9+
+## Technologies Used
+* Python 3.9+
 
-Streamlit (Web Framework)
+* Streamlit (Web Framework)
 
-Plotly (Interactive Visualizations)
+* Plotly (Interactive Visualizations)
 
-Scikit-Learn (Machine Learning)
+* Scikit-Learn (Machine Learning)
 
-Pandas (Data Processing)
+* Pandas (Data Processing)
 
-NumPy (Numerical Operations)
+* NumPy (Numerical Operations)
 
-Model Details
-Logistic Regression classifier
+## Model Details
+* Logistic Regression classifier
 
-Trained on standardized features
+* Trained on standardized features
 
-Persistent model using pickle serialization
+* Persistent model using pickle serialization
 
-Input features scaled using MinMaxScaler
+* Input features scaled using MinMaxScaler
 
-Deployment
+## Deployment
 The app is deployed on Streamlit Cloud and can be accessed at:
 https://cancer-prediction-kzyjudzvgmgbxf6edjrjhg.streamlit.app/
 
-For Medical Professionals
+## For Medical Professionals
 This tool aims to:
 
-Provide quick preliminary analysis
+* Provide quick preliminary analysis
 
-Visualize feature relationships
+* Visualize feature relationships
 
-Support clinical decision-making
+* Support clinical decision-making
 
-Reduce diagnostic time
+* Reduce diagnostic time
 
 Important: Always verify app predictions with clinical assessments and laboratory tests.
