@@ -28,40 +28,39 @@ cd your-repo-name
 Install dependencies:
 
 ```bash
-Copy
 pip install -r requirements.txt
 ```
 Run the Streamlit app:
 
 ```bash
-Copy
 streamlit run app.py
 ```
-Usage
-Adjust the sliders in the sidebar to input cell nuclei measurements
+## Usage
 
-View the interactive radar chart showing three measurement types
+1. Adjust the sliders in the sidebar to input cell nuclei measurements
 
-See real-time predictions in the right column
+2. View the interactive radar chart showing three measurement types
 
-Interpret results:
+3. See real-time predictions in the right column
 
-Benign: Non-cancerous diagnosis
+4. Interpret results:
 
-Malignant: Cancerous diagnosis
+    **Benign**: Non-cancerous diagnosis
 
-Probability scores show prediction confidence
+    **Malignant**: Cancerous diagnosis
 
-Note: This app should be used as a decision support tool, not a replacement for professional medical diagnosis.
+    Probability scores show prediction confidence
 
-Dataset
-Uses the Wisconsin Breast Cancer Dataset with preprocessing:
+**Note**: This app should be used as a decision support tool, not a replacement for professional medical diagnosis.
 
-Removed unnecessary columns (id, Unnamed: 32)
+## Dataset
+Uses the [Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)  with preprocessing:
 
-Mapped diagnosis to binary values (M=1, B=0)
+  * Removed unnecessary columns (id, Unnamed: 32)
 
-Features normalized for model input
+  * Mapped diagnosis to binary values (M=1, B=0)
+
+  * Features normalized for model input
 
 Technologies Used
 Python 3.9+
